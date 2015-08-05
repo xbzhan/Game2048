@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.subject.lenovo.game2048" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".WelcomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FirstActivity"
+            android:label="Game2048">
+
+
+        </activity>
+        <activity android:name=".Game4x4Activity"
+            android:label="Game2048">
+
+        </activity>
+        <activity android:name=".Game5x5Activiy"
+            android:label="Game2048">
+
+        </activity>
+        <activity android:name=".Game404Activiy"
+            android:label="Game2048">
+
+        </activity>
+
+        <activity android:name=".IntroductionActiviy4x4"
+            android:label="Game2048">
+
+        </activity>
+        <activity android:name=".IntroductionActiviy5x5"
+            android:label="Game2048">
+
+        </activity>
+        <activity android:name=".IntroductionActiviy404"
+            android:label="Game2048">
+
+        </activity>
+        <activity android:name=".HelpActivity"
+            android:label="Game2048"
+            ></activity>
+
+    </application>
+
+</manifest>
