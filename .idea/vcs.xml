@@ -4,5 +4,6 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../../2048Game" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="C:\Users\zhangxiangbing\Desktop\books\2048Game\Game2048" vcs="Git" />
   </component>
 </project>
